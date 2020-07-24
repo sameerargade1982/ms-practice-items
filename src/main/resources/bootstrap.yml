@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: itemsservice
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      enabled: true
