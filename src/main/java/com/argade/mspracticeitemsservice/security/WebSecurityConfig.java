@@ -1,9 +1,9 @@
 package com.argade.mspracticeitemsservice.security;
 
-import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-@Configurable
+@Configuration
 public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
 
     @Override
